@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.img {
+  width: 500px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 3px rgba(75, 73, 73, 0.562);
+}
+.filmTitle {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  background-color: rgb(39, 33, 33);
+  border-radius: 5px;
+  color: whitesmoke;
+}
+.filmInfoList {
+  list-style: none;
+}
+.filmInfoItem {
+  width: 500px;
+  text-align: left;
+}
+.filmInfo {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.filmInfoContent {
+  font-size: 18px;
+  margin: 10px;
+}
+.addInfo {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 2px solid rgba(54, 49, 49, 0.541);
+  border-bottom: 2px solid rgba(54, 49, 49, 0.541);
+}
+.addInfoText {
+  font-size: 27px;
+}
+.addInfoList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.addInfoItem {
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px 1px rgba(63, 61, 61, 0.658);
+  background-color: rgb(39, 33, 33);
+}
+.addInfoLink {
+  text-decoration: none;
+  color: aliceblue;
+}
+.active {
+  color: rgb(240, 27, 27);
+}
+.goBackContainer {
+  position: relative;
+}
+.goBack {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(48, 40, 40);
+  color: aliceblue;
+}
+.goBack:hover,
+.goBack:focus {
+  box-shadow: 1px 1px 3px 1px rgba(94, 78, 78, 0.623);
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.541);
+}

@@ -1,0 +1,10 @@
+.container {
+  background-color: rgba(31, 30, 30, 0.979);
+  border-radius: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.226);
+}
+.navbarMenu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.navbarMenuItem {
+  font-size: 30px;
+  margin-right: 30px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.navbarMenuLink {
+  text-decoration: none;
+  color: rgb(253, 249, 249);
+}
+.navbarMenuLink:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.795);
+}
+.active {
+  color: red;
+}

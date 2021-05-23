@@ -1,0 +1,16 @@
+.movies {
+  /* background-color: rgba(31, 30, 30, 0.979); */
+}
+.movieList {
+  display: grid;
+  max-width: calc(100vw - 48px);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 16px;
+  width: 1200px;
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  background: linear-gradient(#6c2020, #1d1f31);
+  padding: 15px;
+  border-radius: 5px;
+}
